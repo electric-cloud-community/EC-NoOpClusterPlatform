@@ -1,0 +1,14 @@
+<plugin>
+  <key>EC-NoOpClusterPlatform</key>
+  <label>EC-NoOpClusterPlatform</label>
+  <version>1.0.0.0</version>
+  <author>Greg Maxey</author>
+  <authorUrl></authorUrl>
+  <category>Container Management</category>
+  <commander-version min="6.0" />
+  <description>An environment cluster type that does nothing, providing equivalent functionality to an empty (no resource) environment tier."</description>
+  <pluginWizardBased>true</pluginWizardBased>
+  <configure>ec_config</configure>
+  <depends min="1.4.1">EC-PluginManager</depends>
+  <help>help.xml</help>
+</plugin>
